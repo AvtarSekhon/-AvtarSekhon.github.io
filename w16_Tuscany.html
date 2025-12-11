@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Taste of Tuscany</title>
+        <link type="text/css" rel="stylesheet" href="w16_Tuscany.css"/>
+        <script>
+        function appear(){
+                elem=document.getElementById("specials");
+                elem.style.display="block";
+
+            }
+            function Dissapear(){
+                elem=document.getElementById("specials");
+                elem.style.display="none";
+
+            }
+        </script>
+    </head>
+    <article>
+        <h1> Taste of Tuscany</h1>
+        <h2>Italian Restaurant</h2>
+        <h3>234 Arezzo Avenue<br>
+        Sherwood Park</h3>
+        <img src="https://images.unsplash.com/photo-1534650075489-3baecec1e8b1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aXRhbGlhbiUyMHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D"width="300" height="300"
+        alt="picture of Taste of Tuscany"></img>
+        <ul>
+            <li>Fine Italian Dining</li>
+            <li><button onclick="appear()"><b>Daily Specials</b></button></li>
+            <li>Liscensed</li>
+            <li>Banquet Room</li>
+            <li>Open Untile 11pm</li>
+            <li>Eat In,Take Out,Delivery</li>
+            <li>Call 780-555-1234</li>
+        </ul>
+    </article>
+    <article id="specials">
+        <h1><i>Todays Specials</i></h1>
+        <h2><i> Valgette(Beef Rolls)</i></h2>
+        <img src="https://www.foodnetwork.com/content/dam/images/food/fullset/2018/4/30/0/FNK_Grilled-Thai-Curry-Beef-Roll_s4x3.jpg" width="270" height="270"
+        alt=" Picture of Beef Rolls"></img>
+        <p>Includes Any two of<p>
+        <p>><ol>
+        <li>Pasta e fagioli</li>
+        <li>Ravioli Nudi</li>
+        <li>Fettunta</li>
+        <li>Crosstini Con Salciccia</li>
+        <li>Ribollita</li>
+        </ol>
+        <button onclick="Dissapear()">close</button></p>
+    </article>
+
+</html>
