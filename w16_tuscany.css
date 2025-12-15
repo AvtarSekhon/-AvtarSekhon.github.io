@@ -4,7 +4,7 @@ body {
 
             form{
                 display: inline-block;
-                text-align: left;
+                text-align: center;
             }
 #specials {
   width: 80%;
@@ -16,4 +16,5 @@ body {
   text-align: center;
   border: 2px solid blue;
   background-color: #aaf;
+
 }
